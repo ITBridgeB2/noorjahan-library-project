@@ -1,0 +1,52 @@
+/* Container styling for the home page */
+.home-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+/* Button container (flex layout) */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+/* Button style */
+.button-group button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 120px;
+    height: 140px;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for buttons */
+.button-group button:hover {
+    background-color: #e8f0fe;
+    transform: scale(1.05);
+}
+
+/* Image inside button */
+.button-group button img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Text inside button */
+.button-group button div {
+    font-weight: bold;
+    color: #333;
+}
